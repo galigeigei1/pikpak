@@ -41,7 +41,7 @@ const getList = () => {
   loading.value = true
   notionHttp.post('https://api.notion.com/v1/databases/f90e8e28b55e423185f44c89c53c573c/query', {
     start_cursor: nextCursor.value || undefined,
-    page_size: 50
+    page_size: 100
   })
   .then((res:any) => {
     loading.value = false

@@ -129,7 +129,7 @@ import { useRoute, useRouter } from 'vue-router'
     {
       label: '资源库',
       key: 'share',
-      icon: renderIcon(Trash)
+      icon: renderIcon(Camera)
     },
     {
       label: '设置',
