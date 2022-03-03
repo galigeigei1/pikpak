@@ -153,7 +153,7 @@ const addUrl = (url:string) => {
 }
 
 const scrollHandle = (e:any) =>  {
-  if(e.target.offsetHeight - e.target.scrollTop < 30) {
+  if(e.target.offsetHeight - e.target.scrollTop < 60) {
     if(nextCursor.value && !loading.value) {
       getList()
     }
